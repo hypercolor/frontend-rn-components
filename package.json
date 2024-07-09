@@ -1,0 +1,38 @@
+{
+  "name": "@hypercolor/frontend-rn-components",
+  "version": "0.0.2",
+  "description": "This is used by the team at Hypercolor Digital to inject shared React Native components to increase development velocity.",
+  "main": "dist/index.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc --build --clean && tsc --build",
+    "publish": "npm run build && npm pack && npm publish --access public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hypercolor/frontend-rn-components.git"
+  },
+  "keywords": [
+    "react native",
+    "Frontend",
+    "Functional Components"
+  ],
+  "author": "Seth Uschuk",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hypercolor/frontend-rn-components/issues"
+  },
+  "homepage": "https://github.com/hypercolor/frontend-rn-components#readme",
+  "devDependencies": {
+    "@tsconfig/react-native": "^3.0.5",
+    "@types/react": "18.0.25",
+    "@types/react-native": "^0.71.13",
+    "react": "18.2.0",
+    "react-native": "0.71.13",
+    "react-native-svg": "^9.12.0",
+    "typescript": "5.5.3"
+  }
+}
